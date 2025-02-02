@@ -18,11 +18,16 @@
     font-family: StyleScript;
     src: url(StyleScript-Regular.ttf);
 }
+@font-face {
+    font-family: HennyPenny;
+    src: url(HennyPenny-Regular.ttf);
+}
     h1{
         font-size: 4rem;
         font-weight: 300;
-        font-family: RobotoLight, OpenSans, sans-serif;
+        font-family: HennyPenny, RobotoLight, OpenSans, sans-serif;
         letter-spacing: -1.5px;
+        line-height: 2rem;
     }
     h2{
         font-size: 3.75rem;
@@ -37,16 +42,17 @@
         letter-spacing: 0px;
     }
     h4{
-        font-size: 2.125rem;
+        font-size: 1.9rem;
         font-weight: 400;
         font-family: RobotoRegular, OpenSans, sans-serif;
-        letter-spacing: 0.25px;
+        letter-spacing: 1.8px;
     }
     h5{
         font-size: 1.5rem;
         font-weight: 400;
         font-family: StyleScript, RobotoRegular, OpenSans, sans-serif;
         letter-spacing: 0px;
+        line-height: 0.9rem;
     }
     .subtitle1 {
         font-size: 1rem;
@@ -84,23 +90,11 @@
         font-family: RobotoRegular, OpenSans, sans-serif;
         letter-spacing: 1.5px;
     } 
-    .font1{
-        font-family: PTSerif;
-    }
-    .font2{
-        font-family: Beba;
-    }
-    .font3{
-        font-family: Open;
-    }
-    .font4{
-        font-family: Play;
-    }
     @media screen and (max-width: 600px) {
-        .subtitle2 {
-            font-size: 0.6rem;
-        }
-        .font1, .font2, .font3, .font4, .font5 {
-            font-size: 0.6rem;  
-        }
+        h5 {
+            font-size: 1rem;
     }
+    .caption {
+        font-size: 0.5rem;
+    } 
+}
